@@ -1,4 +1,4 @@
-package main.instruments;
+package main;
 
 public class Drum extends Instrument {
 
