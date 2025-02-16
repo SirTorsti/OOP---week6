@@ -68,7 +68,7 @@ public class App
                     break;
 
                 case 0:
-                    System.out.println("Kiitos ohjelman käytöstä!");
+                    System.out.println("Kiitos ohjelman käytöstä.");
                     exit = true;
             }
         } sc.close();
