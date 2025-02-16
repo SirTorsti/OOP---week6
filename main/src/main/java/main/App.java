@@ -40,12 +40,20 @@ public class App
                     else if(instrumentChoice == 3) {
                         instruments.add(new Drum(manufacturer, price));
                     }
+                    else {
+                        System.out.println("Virheellinen soitinvalinta.");
+                        break;
+                    }
 
                     System.out.println("Soitin lisätty listaan!");
 
                     break;
 
                 case 2:
+                    if (instruments.isEmpty()) {
+                        System.out.println("Ei lisättyjä soittimia.");
+                        break;
+                    }
                     for(Instrument i: instruments) {
                         System.out.println(i.getDetails());
                     }
